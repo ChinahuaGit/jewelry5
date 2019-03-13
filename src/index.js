@@ -16,7 +16,7 @@ const App = () => {
       </p>
       <p>- Captain Kirk</p>
 
-      <img alt="header" src="/images/header.jepg" className="app-header" />
+      <img alt="header" src="/images/header.jpg" className="app-header" />
     </div>
   );
 };
