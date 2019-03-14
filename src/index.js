@@ -16,20 +16,31 @@ const App = () => {
       <button className="button">About me</button>
       <h1>Garden of Beaden</h1>
       <p className="headerDiscription">Jewelry ideas, findings, and beads</p>
-      <p>-</p>
-      <p> $300</p>
-      <img alt="header" src="/images/header.jpg" className="app-header" />
-      <button className="cartButton">add to cart</button>
-
-      <img alt="header" src="/images/header.jpg" className="app-header" />
-      <button className="cartButton">add to cart</button>
-      <div> $300</div>
-      <img alt="header" src="/images/header.jpg" className="app-header" />
-      <button className="cartButton">add to cart</button>
-      <div> $300</div>
-      <img alt="header" src="/images/header.jpg" className="app-header" />
-      <button className="cartButton">add to cart</button>
-      <div> $300</div>
+      <p>
+        ______________________________________________________________
+        <div>
+          <span class Name="app-header">
+            <p>
+              <button className="cartButton">add to cart</button> $300
+              <button className="cartButton">add to cart</button> $300
+              <button className="cartButton">add to cart</button> $300
+              <button className="cartButton">add to cart</button> $300
+            </p>
+            <img alt="header" src="/images/header.jpg" />
+            <img alt="header" src="/images/header.jpg" />
+            <img alt="header" src="/images/header.jpg" />
+            <img alt="header" src="/images/header.jpg" />
+            <img alt="header" src="/images/header.jpg" />
+            <img alt="header" src="/images/header.jpg" />
+            <img alt="header" src="/images/header.jpg" />
+            <img alt="header" src="/images/header.jpg" />
+            <img alt="header" src="/images/header.jpg" />
+            <img alt="header" src="/images/header.jpg" />
+            <img alt="header" src="/images/header.jpg" />
+            <img alt="header" src="/images/header.jpg" />
+          </span>
+        </div>
+      </p>
     </div>
   );
 };
