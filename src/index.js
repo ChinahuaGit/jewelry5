@@ -9,14 +9,27 @@ const App = () => {
   console.log("process.env.NODE_ENV", process.env.NODE_ENV);
   return (
     <div className="app">
-      <p>
-        We are a most promising species, Mr. Spock, as predators go. Did you
-        know that? I frequently have my doubts. I dont. Not any more. And maybe
-        in a thousand years or so, we will be able to prove it.
-      </p>
-      <p>- Captain Kirk</p>
+      <button className="button">Findings</button>
+      <button className="button">Beads</button>
+      <button className="button">Necklaces</button>
+      <button className="button">Earings</button>
+      <button className="button">About me</button>
+      <h1>Garden of Beaden</h1>
+      <p className="headerDiscription">Jewelry ideas, findings, and beads</p>
+      <p>-</p>
+      <p> $300</p>
+      <img alt="header" src="/images/header.jpg" className="app-header" />
+      <button className="cartButton">add to cart</button>
 
       <img alt="header" src="/images/header.jpg" className="app-header" />
+      <button className="cartButton">add to cart</button>
+      <div> $300</div>
+      <img alt="header" src="/images/header.jpg" className="app-header" />
+      <button className="cartButton">add to cart</button>
+      <div> $300</div>
+      <img alt="header" src="/images/header.jpg" className="app-header" />
+      <button className="cartButton">add to cart</button>
+      <div> $300</div>
     </div>
   );
 };

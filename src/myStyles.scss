@@ -4,13 +4,39 @@ body {
 }
 
 .app {
-  width: 450px;
+  width: 950px;
+  font-family: Arial, Helvetica, sans-serif;
+
   margin: 0 auto;
   padding-top: 50px;
 
   & .app-header {
-    height: 250px;
-    width: inherit;
-    object-fit: cover;
+    min-width: 5px;
+    margin: 5px;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: stretch;
+    flex-wrap: wrap;
   }
+}
+
+.button {
+  float: right;
+  display: flex;
+  flex-direction: row;
+  // justify-content: flex-center;
+  justify-content: space-evenly;
+  width: 70px;
+  border: 1px solid gray;
+  padding: 4px;
+}
+
+.cartButton {
+  float: left;
+}
+
+.headerDiscription {
+  font-size: 12px;
 }
