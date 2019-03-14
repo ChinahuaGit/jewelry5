@@ -14,26 +14,41 @@ const App = () => {
       <button className="button">Necklaces</button>
       <button className="button">Earings</button>
       <button className="button">About me</button>
-      <h1>Garden of Beaden</h1>
+      <h1 className="headerTitle">Garden of Beaden</h1>
       <p className="headerDiscription">Jewelry ideas, findings, and beads</p>
       <p>
         ______________________________________________________________
         <div>
-          <span class Name="app-header">
-            <p>
-              <button className="cartButton">add to cart</button> $300
-              <button className="cartButton">add to cart</button> $300
-              <button className="cartButton">add to cart</button> $300
-              <button className="cartButton">add to cart</button> $300
+          <span class Name="app-body">
+            <p className="cartTitleSpacing">
+              <button className="app-cartButton">add to cart</button> $300
+              <button className="app-cartButton">add to cart</button> $300
+              <button className="app-cartButton">add to cart</button> $300
+              <button className="app-cartButton">add to cart</button> $300
             </p>
             <img alt="header" src="/images/header.jpg" />
             <img alt="header" src="/images/header.jpg" />
             <img alt="header" src="/images/header.jpg" />
             <img alt="header" src="/images/header.jpg" />
+
+            <p className="cartTitleSpacing">
+              <button className="app-cartButton">add to cart</button> $300
+              <button className="app-cartButton">add to cart</button> $300
+              <button className="app-cartButton">add to cart</button> $300
+              <button className="app-cartButton">add to cart</button> $300
+            </p>
             <img alt="header" src="/images/header.jpg" />
             <img alt="header" src="/images/header.jpg" />
             <img alt="header" src="/images/header.jpg" />
             <img alt="header" src="/images/header.jpg" />
+
+            <p className="cartTitleSpacing">
+              <button className="app-cartButton">add to cart</button> $300
+              <button className="app-cartButton">add to cart</button> $300
+              <button className="app-cartButton">add to cart</button> $300
+              <button className="app-cartButton">add to cart</button> $300
+            </p>
+
             <img alt="header" src="/images/header.jpg" />
             <img alt="header" src="/images/header.jpg" />
             <img alt="header" src="/images/header.jpg" />
