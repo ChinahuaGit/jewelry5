@@ -23,7 +23,8 @@ body {
     float: right;
     display: flex;
     flex-direction: row;
-    // justify-content: flex-center;
+    // justify-content: flex-end;
+    //order: 
     justify-content: space-evenly;
     width: 70px;
     border: 1px solid gray;
@@ -42,11 +43,11 @@ body {
 }
 
 .headerTitle {
-  text-align: right;
+  text-align: left;
   margin: 4px;
 }
 
 .headerDiscription {
   font-size: 12px;
-  text-align: right;
+  text-align: left;
 }
