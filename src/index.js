@@ -1,12 +1,6 @@
 import React, { Component } from "react";
-import {
-  Router,
-  Route,
-  Link,
-  NavLink,
-  IndexRoute,
-  browserHistory
-} from "react-router";
+import ReactDOM from "react-dom";
+import { Router, Route, Switch, browserHistory } from "react-router";
 import aboutMe from "./component/header/aboutMe";
 import App from "./containers/App";
 //import { Router, Route } from "react-router-dom";
@@ -15,17 +9,12 @@ import App from "./containers/App";
 class JewelryPages extends Component {
   render() {
     return (
-      <div>
-        <Router history={browserHistory}>
-          <Route path="/" component={Container}>
-          <Route exact path="/aboutMe" component={aboutMe} />
-          <Route exact path="/" component={App} />
-          <Route path="*" component={NotFound} />
-          {/* <Route path="/address" component={Address} /> */}
-          </Route>
-        </Router>
-      </div>
+      <Router history={browserHistory}>
+        <Route exact path="/" component={App} />
+        <Route path="/aboutMe" component={aboutMe} />
+        <Route path="*" render={() => <div>not found</div>} />
+      </Router>
     );
   }
 }
-export default JewelryPages;
+ReactDOM.render(<JewelryPages />, document.getElementById("app"));

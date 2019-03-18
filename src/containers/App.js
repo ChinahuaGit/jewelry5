@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom";
 import Catalog from "../component/jewelryCatalog/jewelryCatalog";
 import {
   Router,
@@ -10,6 +9,7 @@ import {
   browserHistory
 } from "react-router";
 import aboutMe from "../component/header/aboutMe";
+import JewelryPages from "../index";
 
 import "../../src/myStyles.scss";
 
@@ -30,7 +30,7 @@ export class App extends Component {
         const Nav = () => (
         <div>
           <Link to="/">App</Link>&nbsp;
-          <Link to="/aboutMe">{aboutMe}</Link>
+          <Link to="/aboutMe">aboutMe</Link>
         </div>
         )
         <button
@@ -68,5 +68,5 @@ export class App extends Component {
     );
   }
 }
-ReactDOM.render(<App />, document.getElementById("app"));
-export default App();
+export default app
+
