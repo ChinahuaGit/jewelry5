@@ -1,15 +1,8 @@
 import React, { Component } from "react";
 import Catalog from "../component/jewelryCatalog/jewelryCatalog";
-import {
-  Router,
-  Route,
-  Link,
-  NavLink,
-  IndexRoute,
-  browserHistory
-} from "react-router";
-import aboutMe from "../component/header/aboutMe";
-import JewelryPages from "../index";
+import { Link } from "react-router";
+// import aboutMe from "../component/header/aboutMe";
+// import JewelryPages from "../index";
 
 import "../../src/myStyles.scss";
 
@@ -68,5 +61,4 @@ export class App extends Component {
     );
   }
 }
-export default app
-
+export default App;

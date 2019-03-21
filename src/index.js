@@ -12,6 +12,9 @@ class JewelryPages extends Component {
       <Router history={browserHistory}>
         <Route exact path="/" component={App} />
         <Route path="/aboutMe" component={aboutMe} />
+        <Route path="/cart" render={() => <div>cart</div>} />
+        <Route path="/comments" render={() => <div>comments</div>} />
+        <Route path="contactMe" render={() => <div>contact me</div>} />
         <Route path="*" render={() => <div>not found</div>} />
       </Router>
     );
