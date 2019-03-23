@@ -1,0 +1,42 @@
+{
+  "necklaces": [
+    {
+      "name": "Blue Necklace",
+      "quantity": 3,
+      "image": "header.jpg",
+      "id": 5
+    },
+    {
+      "name": "Red Necklace",
+      "quantity": 1,
+      "image": "header.jpg",
+      "id": 6
+    },
+    {
+      "name": "Green Necklace",
+      "quantity": 0,
+      "image": "header.jpg",
+      "id": 7
+    }
+  ],
+  "earrings": [
+    {
+      "name": "Red Earrings",
+      "quantity": 1,
+      "image": "header.jpg",
+      "id": 15
+    },
+    {
+      "name": "Blue Earrings",
+      "quantity": 1,
+      "image": "header.jpg",
+      "id": 16
+    },
+    {
+      "name": "Purple Earrings",
+      "quantity": 1,
+      "image": "header.jpg",
+      "id": 17
+    }
+  ]
+}

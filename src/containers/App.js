@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import Catalog from "../component/jewelryCatalog/jewelryCatalog";
 import { Link } from "react-router";
-// import aboutMe from "../component/header/aboutMe";
-// import JewelryPages from "../index";
+import aboutMe from "../component/header/aboutMe";
+import JewelryPages from "../index";
+// import get from "../../get"
 
 import "../../src/myStyles.scss";
 
